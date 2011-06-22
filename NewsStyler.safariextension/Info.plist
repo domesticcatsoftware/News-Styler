@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Patrick Richards</string>
+	<key>Builder Version</key>
+	<string>7534.34.4</string>
+	<key>CFBundleDisplayName</key>
+	<string>NewStyle</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.domesticcat.newsstyler</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+		<key>Stylesheets</key>
+		<array>
+			<string>theage.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.theage.com.au/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Restyles theage.com to something more sensible.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://domesticcat.com.au/projects/newsstyler/manifest.plist</string>
+	<key>Website</key>
+	<string>http://domesticcat.com.au/projects/newsstyler/</string>
+</dict>
+</plist>

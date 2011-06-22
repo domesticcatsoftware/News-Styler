@@ -1,0 +1,362 @@
+/* @override http://cf.kampyle.com/k_button.css */
+
+body
+{
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif !important;
+	background-image: none !important;
+}
+
+/* centers the logo when on pages other than the home page */
+.mh-logo
+{
+	position: relative !important;
+	top: 13px !important;
+	margin: 0 auto !important;
+}
+
+/* get's rid of a lot of ads, probably breaks other things in the process */
+embed
+{
+	display: none !important;
+}
+
+/* to get right hand sidebars back remove this rule. */
+#sidebar, .aside.span-8.last
+{
+	display: none !important;
+}
+
+/* to get left hand sidebars back remove this rule. */
+.sidebar.span-5, .sidebar.span-4
+{
+	display: none !important;
+}
+
+/* @group Top */
+
+.header
+{
+	border: none !important;
+}
+
+/* quote rotator (usually at top right */
+.cT-quoteRotator
+{
+	display: none !important;
+}
+
+/* re-style nav */
+#nav, #nav a
+{
+	background: none !important;
+	color: black !important;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	text-transform: uppercase !important;
+}
+
+#nav
+{
+	margin-bottom: 0 !important;
+}
+
+#nav.hasSubNav li.selected
+{
+	text-decoration: underline !important;
+}
+
+#nav.hasSubNav li.selected ol
+{
+	background: none !important;
+}
+
+#nav.hasSubNav li.hasDropDown ul.selected
+{
+	background: none !important;
+}
+
+#nav.hasSubNav .sponsor-1, .sponsor-1
+{
+	display: none !important;
+}
+
+/* hide featured/video news (usually ads/crap) */
+.nav, .cT-featuredNews
+{
+	display: none !important;
+}
+
+.cT-videoNews
+{
+	display: none !important;
+}
+
+/* @end */
+
+/* @group Main News Section */
+
+#latestnews a
+{
+	color: #00427f !important;
+}
+
+#latestnews a:hover
+{
+	text-decoration: none !important;
+	border-bottom: 1px groove #00427f !important;
+}
+
+#latestnews .span-8
+{
+	width: 600px !important;
+}
+
+#latestnews .cT-wireNews, #latestnews .strapHeadingWireNews
+{
+	display: none !important;
+}
+
+#latestnews .firstStory h3 a
+{
+	font-weight: normal !important;
+	font-size: 1.2em !important;
+}
+
+.cT-pencilStrip
+{
+	display: none !important;
+}
+
+/* move the main image rotator to the right */
+#latestnews .cT-imageSelector
+{
+	position: absolute !important;
+	right: 0 !important;
+}
+
+img
+{
+	border-radius: 4px !important;
+}
+
+/* these are the smaller list of stories below the main leading stories */
+ul.featuredStoriesList, ul.featuredStoriesList li
+{
+	margin-left: 0 !important;
+	list-style-type: none !important;
+	font: 1.1em/1.8em Georgia, "Times New Roman", Times, serif !important;
+}
+
+ul.featuredStoriesList a::after
+{
+	content: " →" !important;
+}
+
+ul.featuredStoriesList .comments
+{
+	font-size: .6em !important;
+	line-height: 1em !important;
+}
+
+ul.featuredStoriesList .comments ::after
+{
+	content: "" !important;
+}
+
+/* @end */
+
+/* @group Other subsections */
+
+.home #content.span-16
+{
+	margin: 0 auto !important;
+}
+
+.cN-strapBreakingNews
+{
+	margin-bottom: 40px !important;
+	margin-top: 40px !important;
+}
+
+/* hides the little tag lines */
+.cN-strapBreakingNews span a, .cT-strapHeading span a, .cN-strapBreakingNews .action, .cN-strapBreakingNews span.tagline
+{
+	display: none !important;
+}
+
+h3.cT-strapHeading
+{
+	border-bottom: 1px solid black !important;
+	text-transform: uppercase !important;
+	font-size: 1.5em !important;
+	line-height: 1.4em !important;
+}
+
+.cN-storyHeadlineLead.strapStory h3
+{
+	font-size: 1.5em !important;
+	line-height: 1.4em !important;
+}
+
+/* styles the smaller story headlines for each section */
+.cN-storyHeadlineOnly
+{
+	padding-left: 0px !important;
+	background: none !important;
+	font: 1.1em Georgia, "Times New Roman", Times, serif !important;
+	line-height: 1.4em !important;
+}
+
+/* @end */
+
+
+/* @group Hiding Elements */
+
+/* hide ads */
+
+.adWrapper, .ad, .todaysFeature, #adRotatorContainer, #widget, #emptyAdspot-180x150, #theBgDiv
+{
+	display: none !important;
+}
+
+.cT-storyTools
+{
+	display: none !important;
+}
+
+.cN-storyCommentLatest
+{
+	display: none !important;
+}
+
+.breadcrumb
+{
+	display: none !important;
+}
+/* hide big underneith ads */
+
+.cA-gutter
+{
+	display: none !important;
+}
+
+/* hide useless white bar at top */
+
+.nN-whiteStrip, #networkStripTop
+{
+	display: none !important;
+}
+
+/* fix the featured story boxes */
+.wof, .wof a, .wof p, .wof li, .fdVideoWof, .wof h3, .puff .caption, .puff .caption h3 a
+{
+	background: white !important;
+	color: black !important;
+	border: none !important;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif !important;
+}
+
+/* hide hot topics, search bar */
+
+.cT-hotTopics, .cN-searchBox
+{
+	display: none !important;
+}
+
+/* other sections */
+
+.footer, #footer
+{
+	display: none !important;
+}
+
+.aside.span-8
+{
+	margin-top: 80px !important;
+}
+
+.strapMyCity, .strapHeadingDriveTV, .weekendStripStrapDriveTV, .strapHeadingTV, .weekendStripStrap
+{
+	display: none !important;
+}
+
+/* misc promo stuff */
+
+.cT-promoStrip
+{
+	display: none !important;
+}
+
+form.quoteform
+{
+	display: none !important;
+}
+
+.cT-strapHeading
+{
+	border: none !important;
+}
+
+.storyLifeStyle h4
+{
+	display: none !important;
+}
+
+.cT-horoscope
+{
+	display: none !important;
+}
+/* @end */
+
+/* @group Comments */
+
+@-webkit-keyframes technicolour
+{ 
+	0%
+	{
+		color: red !important;
+	}
+
+	33%
+	{
+		color: purple !important;
+	}
+
+	66%
+	{
+		color: green !important;
+	}
+}
+
+#comments, #comments h3
+{
+	color: red !important;
+	font: 1.1em "Comic Sans MS" !important;
+    -webkit-animation-name: technicolour !important;
+    -webkit-animation-duration: 6s !important;
+    -webkit-animation-iteration-count: infinite !important;
+}
+
+#comments cite
+{
+	margin-top: 10px;
+	position: relative;
+	left: 30px;
+	line-height: 1.2em;
+}
+
+/* hides images in the comments sections (ads) */
+#comments img
+{
+	display: none !important;
+}
+
+/* @end */
+
+/* @group Other Styling */
+
+.strapHeadingLifeStyle a, .strapHeadingLifeStyle span a
+{
+	color: black !important;
+}
+
+/* @end */
